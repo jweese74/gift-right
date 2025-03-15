@@ -1,0 +1,50 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and configuration files
+.env
+config/database.php
+
+# Ignore logs and temporary files
+logs/
+*.log
+
+# Ignore cache and session files
+cache/
+sessions/
+
+# Ignore dependency directories
+vendor/
+node_modules/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled files
+*.pyc
+__pycache__/
+
+# Ignore composer dependencies if using PHP Composer
+composer.lock
+
+# Ignore migration dumps (optional)
+migrations/*.sql
+
+# Ignore SFTP or FTP config files
+ftpconfig.json
+sftp-config.json
+
+# Ignore backup files
+*.bak
+*.tmp
+*.old
+
+# Ignore compiled assets (if you build assets dynamically)
+public/assets/js/*.min.js
+public/assets/css/*.min.css
+
+# Ignore personal project notes
+NOTES.md
